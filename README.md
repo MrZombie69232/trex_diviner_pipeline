@@ -2,8 +2,6 @@
 > This package provides methods in combining LRO Diviner data with 1D thermal model results to derive partice size from measured cooling curves.
 
 
-This file will become your README and also the index of your documentation.
-
 ## Install
 
 `pip install trex_diviner_pipeline`
