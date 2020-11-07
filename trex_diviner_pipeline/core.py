@@ -19,10 +19,9 @@ import heat1d
 class HelloSayer:
     """Say hello to `to` using `say_hello`
 
-    adding some text
-
-    Attributes:
-      to: String to whom say hello
+    Parameters
+    ----------
+    to: String to whom say hello
     """
 
     def __init__(self, to):
