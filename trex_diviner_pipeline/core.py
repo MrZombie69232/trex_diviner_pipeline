@@ -18,6 +18,9 @@ import heat1d
 # Cell
 class HelloSayer:
     """Say hello to `to` using `say_hello`
+
+    adding some text
+
     Attributes:
       to: String to whom say hello
     """
