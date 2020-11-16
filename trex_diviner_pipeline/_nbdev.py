@@ -2,9 +2,15 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
+<<<<<<< HEAD
 index = {}
+=======
+index = {"read_image": "00_core.ipynb",
+         "LOLA_DEM": "01_dems.ipynb"}
+>>>>>>> current status
 
-modules = ["core.py"]
+modules = ["core.py",
+           "dems.py"]
 
 doc_url = "https://michaelaye.github.io/trex_diviner_pipeline/"
 

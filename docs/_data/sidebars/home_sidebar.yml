@@ -12,6 +12,9 @@ entries:
     - output: web,pdf
       title: TREX Diviner Pipeline
       url: core.html
+    - output: web,pdf
+      title: Title
+      url: dems.html
     output: web
     title: trex_diviner_pipeline
   output: web
