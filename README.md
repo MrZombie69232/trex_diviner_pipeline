@@ -7,14 +7,3 @@
 `pip install trex_diviner_pipeline`
 
 ## How to use
-
-```python
-say_hello("Frank")
-```
-
-
-
-
-    'Hello Frank!'
-
-

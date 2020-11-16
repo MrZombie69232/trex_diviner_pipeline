@@ -3,9 +3,18 @@
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 index = {}
 =======
 index = {"read_image": "00_core.ipynb",
+=======
+index = {"read_raster_image": "00_core.ipynb",
+         "slice_lat": "00_core.ipynb",
+         "read_cycle_image": "00_core.ipynb",
+         "read_ltime": "00_core.ipynb",
+         "read_images_into_stacked_array": "00_core.ipynb",
+         "get_data_for_pixel": "00_core.ipynb",
+>>>>>>> cleaned up
          "LOLA_DEM": "01_dems.ipynb"}
 >>>>>>> current status
 

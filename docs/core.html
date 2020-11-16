@@ -33,12 +33,30 @@ nb_path: "00_core.ipynb"
     
 <div class="cell border-box-sizing code_cell rendered">
 
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="read_raster_image" class="doc_header"><code>read_raster_image</code><a href="https://github.com/michaelaye/trex_diviner_pipeline/tree/master/trex_diviner_pipeline/core.py#L20" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>read_raster_image</code>(<strong><code>fpath</code></strong>, <strong><code>chunk_scale</code></strong>=<em><code>2</code></em>)</p>
+</blockquote>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
     {% endraw %}
 
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
+<<<<<<< HEAD
 <div class="input">
 
 <div class="inner_cell">
@@ -56,12 +74,33 @@ nb_path: "00_core.ipynb"
 </div>
 </div>
 
+=======
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="slice_lat" class="doc_header"><code>slice_lat</code><a href="https://github.com/michaelaye/trex_diviner_pipeline/tree/master/trex_diviner_pipeline/core.py#L27" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>slice_lat</code>(<strong><code>data</code></strong>, <strong><code>lat_limit</code></strong>)</p>
+</blockquote>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+>>>>>>> cleaned up
 </div>
     {% endraw %}
 
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
+<<<<<<< HEAD
 <div class="input">
 
 <div class="inner_cell">
@@ -72,6 +111,8 @@ nb_path: "00_core.ipynb"
     </div>
 </div>
 </div>
+=======
+>>>>>>> cleaned up
 
 </div>
     {% endraw %}
@@ -81,10 +122,36 @@ nb_path: "00_core.ipynb"
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
+<<<<<<< HEAD
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">read_image</span><span class="p">(</span><span class="n">fpath</span><span class="p">)</span>
 </pre></div>
+=======
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="read_cycle_image" class="doc_header"><code>read_cycle_image</code><a href="https://github.com/michaelaye/trex_diviner_pipeline/tree/master/trex_diviner_pipeline/core.py#L31" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>read_cycle_image</code>(<strong><code>fpath</code></strong>, <strong><code>chunk_scale</code></strong>=<em><code>2</code></em>)</p>
+</blockquote>
+<p>Read an Diviner map cycle rasterio image into a dask.array.</p>
+<p>Using the <code>chunks</code> keyword in the open_rasterio method
+activates the return of an out-of-memory virtual array instead
+of the in-memory xarray.DataArray</p>
+<p>fpath: str, pathlib.Path
+chunk_scale: int
+    Scaling the chunck</p>
+
+</div>
+
+</div>
+
+</div>
+</div>
+>>>>>>> cleaned up
 
     </div>
 </div>
@@ -96,6 +163,7 @@ nb_path: "00_core.ipynb"
 <div class="output_area">
 
 
+<<<<<<< HEAD
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div><svg style="position: absolute; width: 0; height: 0; overflow: hidden">
 <defs>
@@ -566,6 +634,12 @@ Attributes:
 </table></div></div></li><li class='xr-section-item'><input id='section-0d88af38-cd31-4c4b-8ce7-ed3e7f3ed119' class='xr-section-summary-in' type='checkbox'  checked><label for='section-0d88af38-cd31-4c4b-8ce7-ed3e7f3ed119' class='xr-section-summary' >Coordinates: <span>(3)</span></label><div class='xr-section-inline-details'></div><div class='xr-section-details'><ul class='xr-var-list'><li class='xr-var-item'><div class='xr-var-name'><span class='xr-has-index'>time</span></div><div class='xr-var-dims'>(time)</div><div class='xr-var-dtype'>int64</div><div class='xr-var-preview xr-preview'>20090713</div><input id='attrs-2a353c08-8d8e-4496-a2a5-dde8a0ad3e70' class='xr-var-attrs-in' type='checkbox' disabled><label for='attrs-2a353c08-8d8e-4496-a2a5-dde8a0ad3e70' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-87f8b264-91fd-4455-89cf-1f1767be43d9' class='xr-var-data-in' type='checkbox'><label for='data-87f8b264-91fd-4455-89cf-1f1767be43d9' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'></dl></div><div class='xr-var-data'><pre>array([20090713])</pre></div></li><li class='xr-var-item'><div class='xr-var-name'><span class='xr-has-index'>y</span></div><div class='xr-var-dims'>(y)</div><div class='xr-var-dtype'>float64</div><div class='xr-var-preview xr-preview'>80.0 79.99 79.98 ... -79.99 -80.0</div><input id='attrs-ec7dba79-75ee-41fb-a572-14aff88599c4' class='xr-var-attrs-in' type='checkbox' disabled><label for='attrs-ec7dba79-75ee-41fb-a572-14aff88599c4' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-d203149e-2da9-4f18-b8c3-06ec3d85104c' class='xr-var-data-in' type='checkbox'><label for='data-d203149e-2da9-4f18-b8c3-06ec3d85104c' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'></dl></div><div class='xr-var-data'><pre>array([ 79.996094,  79.988281,  79.980469, ..., -79.980469, -79.988281,
        -79.996094])</pre></div></li><li class='xr-var-item'><div class='xr-var-name'><span class='xr-has-index'>x</span></div><div class='xr-var-dims'>(x)</div><div class='xr-var-dtype'>float64</div><div class='xr-var-preview xr-preview'>-180.0 -180.0 ... 180.0 180.0</div><input id='attrs-b720df09-a8cc-41da-88ae-8b084e1358eb' class='xr-var-attrs-in' type='checkbox' disabled><label for='attrs-b720df09-a8cc-41da-88ae-8b084e1358eb' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-01b82a8b-b20a-4416-85a0-aefc9cd88039' class='xr-var-data-in' type='checkbox'><label for='data-01b82a8b-b20a-4416-85a0-aefc9cd88039' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'></dl></div><div class='xr-var-data'><pre>array([-179.996094, -179.988281, -179.980469, ...,  179.980469,  179.988281,
         179.996094])</pre></div></li></ul></div></li><li class='xr-section-item'><input id='section-cb7614b4-3991-4178-8384-618cdc8f5071' class='xr-section-summary-in' type='checkbox'  ><label for='section-cb7614b4-3991-4178-8384-618cdc8f5071' class='xr-section-summary' >Attributes: <span>(12)</span></label><div class='xr-section-inline-details'></div><div class='xr-section-details'><dl class='xr-attrs'><dt><span>transform :</span></dt><dd>(0.0078125, 0.0, -180.0, 0.0, -0.0078125, 80.0)</dd><dt><span>crs :</span></dt><dd>+proj=longlat +R=1737400 +no_defs=True</dd><dt><span>res :</span></dt><dd>(0.0078125, 0.0078125)</dd><dt><span>is_tiled :</span></dt><dd>1</dd><dt><span>nodatavals :</span></dt><dd>(-32768.0,)</dd><dt><span>scales :</span></dt><dd>(1.0,)</dd><dt><span>offsets :</span></dt><dd>(0.0,)</dd><dt><span>AREA_OR_POINT :</span></dt><dd>Area</dd><dt><span>OVR_RESAMPLING_ALG :</span></dt><dd>NEAREST</dd><dt><span>TIFFTAG_RESOLUTIONUNIT :</span></dt><dd>3 (pixels/cm)</dd><dt><span>TIFFTAG_XRESOLUTION :</span></dt><dd>0.39370701</dd><dt><span>TIFFTAG_YRESOLUTION :</span></dt><dd>0.39370701</dd></dl></div></li></ul></div></div>
+=======
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="read_ltime" class="doc_header"><code>read_ltime</code><a href="https://github.com/michaelaye/trex_diviner_pipeline/tree/master/trex_diviner_pipeline/core.py#L49" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>read_ltime</code>(<strong><code>fpath</code></strong>, <strong><code>chunk_scale</code></strong>=<em><code>2</code></em>)</p>
+</blockquote>
+
+>>>>>>> cleaned up
 </div>
 
 </div>
@@ -579,16 +653,64 @@ Attributes:
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
-<div class="input">
 
+<<<<<<< HEAD
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
+=======
+<div class="output_wrapper">
+<div class="output">
 
-    </div>
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="read_images_into_stacked_array" class="doc_header"><code>read_images_into_stacked_array</code><a href="https://github.com/michaelaye/trex_diviner_pipeline/tree/master/trex_diviner_pipeline/core.py#L54" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>read_images_into_stacked_array</code>(<strong><code>image_paths</code></strong>, <strong><code>name</code></strong>, <strong><code>chunk_scale</code></strong>=<em><code>2</code></em>)</p>
+</blockquote>
+
+</div>
+
+</div>
+>>>>>>> cleaned up
+
 </div>
 </div>
+
+<<<<<<< HEAD
+=======
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="get_data_for_pixel" class="doc_header"><code>get_data_for_pixel</code><a href="https://github.com/michaelaye/trex_diviner_pipeline/tree/master/trex_diviner_pipeline/core.py#L61" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>get_data_for_pixel</code>(<strong><code>xoff</code></strong>, <strong><code>yoff</code></strong>, <strong><code>ReaderClass</code></strong>, <strong><code>image_paths</code></strong>, <strong><code>name</code></strong>, <strong><code>chunk_scale</code></strong>=<em><code>1</code></em>)</p>
+</blockquote>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+>>>>>>> cleaned up
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
 
 </div>
     {% endraw %}
